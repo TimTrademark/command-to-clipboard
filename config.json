@@ -1,0 +1,7 @@
+{
+  "command": "iwr -uri http://${IP}:${PORT}/${0} -Outfile ${0}",
+  "parameters": {
+    "IP": "192.168.0.1",
+    "PORT": "80"
+  }
+}
